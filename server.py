@@ -8,3 +8,5 @@ def home():
 
 with app.test_request_context():
     print(url_for("static", filename="styles.css"))
+
+#print("Hello World")
